@@ -1,0 +1,8 @@
+#!/bin/sh
+# /etc/init.d/superscript
+sleep 5
+sudo python /home/pi/RelayTemp/temperature_write2file.py &
+sleep 5
+sudo python /home/pi/RelayTemp/write_average_totemp.py &
+sleep 5
+sudo python /home/pi/RelayTemp/autorelay.py &
