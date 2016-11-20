@@ -14,15 +14,17 @@
 #echo "Starting superscript"
 #killpy \
 #&& cleanup \
-#./superscript
+#./relaytemp_superscript
 
 case "$1" in
   start)
-    echo "Starting superscript"
-    /home/pi/superscript
+    echo "Starting Range Trigger superscript"
+    /home/pi/relaytemp_superscript
+#    sleep 2
+#    /home/pi/rangetrigger_superscript
     ;;
   stop)
-    echo "Stopping superscript"
+    echo "Stopping Range Trigger superscript"
     /home/pi/bin/killpy \
     && /home/pi/bin/cleanup \
     && killall startupscript

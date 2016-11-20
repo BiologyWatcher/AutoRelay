@@ -1,5 +1,5 @@
 cleanup and killpy in /home/pi/bin/ 
-superscript in /home/pi/
+relaytemp_superscript in /home/pi/
 pushbullet.sh in /home/pi/
 startupscript in /etc/init.d/
 
